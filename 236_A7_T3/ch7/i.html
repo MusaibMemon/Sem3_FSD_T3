@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel with Caption</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#demo" data-bs-slide-to="0"   class="active bg-warning"></button>
+            <button data-bs-target="#demo" data-bs-slide-to="1" class="bg-warning"></button>
+            <button data-bs-target="#demo" data-bs-slide-to="2" class="bg-warning"></button>
+        </div>
+        <div class="carousel-inner" style="text-align: center;">
+            <div class="carousel-item active"><img src="mustang.jfif" style="height: 500px; width: 800px;">
+                <div class="carousel-caption">
+                    <h3>Ahmedabad</h3>
+                    <p>We have such historical places</p>
+                </div>
+            </div>
+            <div class="carousel-item"><img src="dodge.jfif" style="height: 200px; width: 500px;">
+                <div class="carousel-caption">
+                    <h3>Gandhinagar</h3>
+                    <p>Green City</p>
+                </div>
+            </div>
+            <div class="carousel-item"><img src="p1.jfif" style="height: 500px; width: 800px;">
+                <div class="carousel-caption">
+                    <h3>Palanpur</h3>
+                    <p>Aapdu palanpur</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-warning"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-warning"></span>
+        </button>
+    </div>
+</body>
+</html>
